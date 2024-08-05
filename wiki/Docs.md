@@ -1,4 +1,14 @@
 # This is important part of the dev env .
 - `npx react-native init Project_name`This is the command which is use to make the project repo and use to download the template from the repo. Then run android command is use to run the 
 - `npx react-native run-android` This is the running command for the development into the emullator.
-
+- One of the ways data is created and managed  in a react or react-native component  is the state .
+- Components are the simple function of the js /ts .It let you split the UI  into the independent,reusable peices and think each piece as a isolation .
+- Component structure is the plain js objects .
+- State is the fancy name of the variable .
+- State can be updated using the statesfunction .
+- State is collection of the values that components manages . It is private and fully controlled by the componets .
+- The other way that data is beinge controlled and managed is the Props .
+- Props stands for the properties .
+- The other way through which the data can be handled is the pros . 
+- Eslint is a tool that is used for reporting and identifying the pattern in the ECMASCRIPT .
+- APP.js is the 
