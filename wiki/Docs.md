@@ -2,6 +2,7 @@
 - `npx react-native init Project_name`This is the command which is use to make the project repo and use to download the template from the repo. Then run android command is use to run the 
 - `npx react-native run-android` This is the running command for the development into the emullator.
 - One of the ways data is created and managed  in a react or react-native component  is the state .
+- Extends means 
 - Components are the simple function of the js /ts .It let you split the UI  into the independent,reusable peices and think each piece as a isolation .
 - Component structure is the plain js objects .
 - State is the fancy name of the variable .
@@ -14,3 +15,8 @@
 - State is initialized when a component is created either with the constructor or with the a property initializer .  
 - Eslint is a tool that is used for reporting and identifying the pattern in the ECMASCRIPT .
 - APP.js is the 
+- Local storage usases .
+# Task one
+- Login and signup for the react native .
+- rnfes will import the basic template into the screen . This come with the help of the extensions .
+- 
