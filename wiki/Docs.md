@@ -9,6 +9,8 @@
 - State is collection of the values that components manages . It is private and fully controlled by the componets .
 - The other way that data is beinge controlled and managed is the Props .
 - Props stands for the properties .
-- The other way through which the data can be handled is the pros . 
+- The other way through which the data can be handled is the pros .
+- The main difference between  state and props is that state are  muatable but props are immuatabe.
+- State is initialized when a component is created either with the constructor or with the a property initializer .  
 - Eslint is a tool that is used for reporting and identifying the pattern in the ECMASCRIPT .
 - APP.js is the 
