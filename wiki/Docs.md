@@ -38,6 +38,9 @@ const Login = () => {   // We have defined the Login component here .
 }
 
 export default Login // Here we have exported the login components as the default module form this area
-
-
+     <Text style = {styles.head}>HI</Text>    // This helps to bring the text over the screen image .
+ head: {     // This is props  which have the  name of the head .
+      fontSize: 30,
+      color: 'red'
+    }
 ```
