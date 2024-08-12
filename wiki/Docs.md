@@ -62,3 +62,56 @@ Props stand for the properties .
 # Multiple screens 
 - To handle navigation between screen in the the react-native we use the navigation library .
 - Redux is the state management tool for the maintainability of the app state .
+
+
+# zero
+- Buttons are the touchable elements used to interacts with the screen and to perform the operations .
+- Button can be small or large or small .
+- Button can be in solid (entirely filled with the color), outline (side filled), or clear (it central text ONLY )
+- This is the first step to create the button in the react native script .
+```Javascript
+import React  from "react";
+import { View , StyleSheet, Text, Button } from "react-native";
+const MyButton = () => {           // This is the  functional components that work is to return the jsx to define what should be on the screen .
+  const PressMe = () => {    // This is helper function 
+    alert("Button hogya");
+  };
+  return (
+    <View style = {style.tutu}> 
+    <Text>Press the button </Text>
+    <Button
+    
+    title="Press me "
+    onPress={PressMe}    // This is call back function that will be executed when the buttin is pressed , in this case it is set to the pressme function .
+    /> 
+    </View>
+  );
+    };
+
+
+    const style = StyleSheet.create ({
+        tutu: {
+            flex: 1,
+            justifyContent: 'center',
+            alignItems:'center'
+        }
+    })
+export default MyButton;
+```
+- Creating simple button without the any decoration 
+```Javascript
+import React from "react";
+import { Button } from "react-native";
+const mybutton = ()=>{
+  const press = ()=>{
+   alert('hogya')
+  };
+  return (
+    <Button
+    title='Click on me'
+    onPress={press}
+    />
+  );
+};
+export default mybutton ;
+```
