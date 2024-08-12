@@ -32,7 +32,7 @@
 const Login = () => {   // We have defined the Login component here .
   return (
     <View>
-      <Text>Login</Text>
+      <Text>Log</Text>
     </View>
   )
 }
@@ -44,3 +44,21 @@ export default Login // Here we have exported the login components as the defaul
       color: 'red'
     }
 ```
+# Core components of the react-Native
+- Components are the basic function of the js. Components can referes to other components in their output .
+
+- These are the native components which are compatible in both the ios and android .
+- <View> A container that supports layout with the flexbox style some touch handling and accessibility .
+- <Text>  Display styles ans nest strings of text  ans even handle the touch events .
+- <Image> Display the different types of image 
+- <ScroolView> A generic  scrolling container that can contain multiple componets ans views /
+- <TextInputs> Allow users to enter text .
+
+# Props 
+Props stand for the properties .
+- It is use to pass the data from the one component to another mostly from the parent compnent to a child component enabling the child to access and use that data within its owmn rendring .
+- One single comp
+
+# Multiple screens 
+- To handle navigation between screen in the the react-native we use the navigation library .
+- Redux is the state management tool for the maintainability of the app state .
