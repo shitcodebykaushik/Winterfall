@@ -1,21 +1,24 @@
-import React from 'react';
-import { SafeAreaView, StatusBar } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Zero from './src/zero';
-const Stack = createNativeStackNavigator();
-
-const App = () => {
+import React  from "react";
+import {Text,View,Button,StyleSheet} from "react-native";
+const Goa =()=>{
+  const nhi =()=> {
+    alert("NHI GYE N");
+  };
   return (
-    <NavigationContainer>
-      <SafeAreaView style={{ flex: 1 }}>
-        <StatusBar barStyle="dark-content" />
-        <Stack.Navigator initialRouteName="Zero">
-        <Stack.Screen name = "Initial" component= {Zero} />
-        </Stack.Navigator>
-      </SafeAreaView>
-    </NavigationContainer>
+    <View style = {styles.tutu}> 
+    <Text> Th </Text>
+    <Button 
+     title = "DBA DE"
+     onPress={nhi}
+    />
+    </View>
   );
 };
-
-export default App;
+const styles = StyleSheet.create ({
+  tutu: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems:'center'
+  }
+});
+export default Goa;
